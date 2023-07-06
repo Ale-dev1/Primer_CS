@@ -1,0 +1,251 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    /* dimencion del contenedor principal */
+    
+    #contenido_navegacion {
+        width: 100%;
+        height: 200px;
+    }
+    /* fondo de la barra de navegacion */
+    
+    #navegador {
+        background-image: url("https://i.pinimg.com/564x/2f/94/e3/2f94e3132df9d5baac2de1ffef40df3b.jpg");
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        image-resolution: 3000dpi;
+        background-position: 0px center;
+        border-radius: 20px;
+    }
+    /* hacer que se hagan bloques de texto tipo div  */
+    
+    .contenedor_navegado>li,
+    a {
+        display: block;
+    }
+    
+    #navegador .contenedor_navegador {
+        display: flex;
+        justify-content: space-around;
+    }
+    /* ordenar bloques en linea vertical */
+    
+    .contenedor_navegador li {
+        display: inline-block;
+        width: 100px;
+        height: auto;
+    }
+    /* quital el subrayado y color a los link */
+    
+    .link a {
+        color: white;
+        text-decoration: none;
+    }
+    /* sub menu */
+    /* ocultar sub menu */
+    
+    .contenedor_navegador .link #sub_menu {
+        display: none;
+        position: absolute;
+    }
+    /* espacio entre enlaces del sub menu */
+    
+    #sub_menu .sub_link {
+        margin-top: 10px;
+    }
+    /* que aparesca el sub menu */
+    
+    #navegador .contenedor_navegador li:hover>ul {
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        height: 100px;
+        opacity: 0.9;
+    }
+    
+    .contenedor_navegador .link :hover {
+        background-color: #164B60;
+        border-radius: 5px;
+        width: 100px;
+        text-align: center;
+        color: rgb(244, 237, 237);
+        height: 25px;
+        text-decoration: none;
+        font-family: fantasy;
+    }
+    /* aplicar a todos los etiquetas a se aplique el color blanco */
+    
+    .sub_link>a {
+        color: white;
+    }
+    /*  bajar los item de inicio, ingresar catalogo*/
+    
+    #navegador ul .link {
+        margin-top: 83px;
+    }
+    /* fondo del cuerpo o body */
+    
+    body {
+        background-image: url("https://i.pinimg.com/originals/57/61/5b/57615b8c0092a66c1d4058b1692955cc.gif");
+        background-position: 300px 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    /*Mover a los laterales la mision y vision*/
+    
+    #Contenedor_M_V {
+        width: 100%;
+        height: 280px;
+        display: table;
+        opacity: 0.9;
+    }
+    /* Mover la mision a la derecha */
+    
+    .mision {
+        float: left;
+    }
+    
+    .vision {
+        float: left;
+    }
+    
+    .vision {
+        height: 100%;
+        width: 50%;
+        border: 1px solid salmon;
+    }
+    
+    .mision {
+        height: 100%;
+        width: 48%;
+        border: 1px solid salmon;
+    }
+    /* dejar un espacio */
+    
+    #Contenedor_M_V .vision {
+        margin-left: 10px;
+    }
+    /* mover la info para abajo de mision y vision */
+    
+    #Contenedor_M_V .mision .info {
+        margin-top: 50px;
+        text-shadow: 1px 1px 1px rgb(81, 255, 0);
+    }
+    
+    #Contenedor_M_V .vision .info {
+        margin-top: 50px;
+        text-shadow: 1px 1px 1px rgb(81, 255, 0);
+    }
+    /* Mover los titulos de la mision y la vision al centro */
+    
+    #Contenedor_M_V .mision h1 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #Contenedor_M_V .vision h1 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #Contenedor_M_V,
+    .mision .vision>p {
+        text-align: justify;
+        letter-spacing: normal;
+        color: #164B60;
+    }
+    /* videos */
+    
+    #videos {
+        width: 100%;
+        height: auto;
+    }
+    
+    #videos .contenedor_videos {
+        display: table;
+        float: left;
+    }
+    
+    #videos .contenedor_videos2 iframe {
+        margin-left: 90px;
+    }
+    /* dimenciones de footer */
+    
+    footer {
+        width: 100%;
+        height: 250px;
+    }
+    /* fondo de footer */
+    
+    footer {
+        background-image: url("https://i.pinimg.com/564x/35/e0/ea/35e0eaa7e7e119f66139948fc0fabcd4.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0px -250px;
+    }
+    /* ordenamiento de link y encabezados */
+    
+    .footer_container,
+    .footer_link {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 250px;
+    }
+    /* dimencioneas de los link ancho y alto*/
+    
+    ul #transition {
+        width: 150px;
+        height: 60px;
+    }
+    /* ponerlos en forma orizontar los contentedores de links */
+    
+    .footer_container .footer_link {
+        display: table;
+        float: left;
+    }
+    
+    .footer_container h1 .footer_link,
+    ul #transition {
+        display: block;
+    }
+    /* espacio hacia abajo los link*/
+    
+    footer .footer_container .footer_link h1 ul,
+    #transition a {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    /* quitar las decoraciones de link */
+    
+    ul,
+    li a {
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    a {
+        font-family: 'Orbitron', sans-serif;
+        color: white;
+    }
+    
+    h1 {
+        font-family: 'Fasthand', cursive;
+        color: white;
+    }
+    /* movimiento de hover en el footer */
+    
+    #transition {
+        transition: width 2s;
+        transition-timing-function: ease;
+    }
+    
+    .footer_container h1 .footer_link,
+    ul #transition:hover {
+        width: 200px;
+        text-align: center;
+        background-color: #164B60;
+    }

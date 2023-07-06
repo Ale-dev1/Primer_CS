@@ -1,0 +1,160 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#navegador ul li,
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: cursive;
+    color: rgb(255, 251, 251);
+}
+
+#navegador ul {
+    display: block;
+}
+
+#navegador ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#navegador {
+    width: 100%;
+    height: 400px;
+}
+
+#navegador {
+    background-image: url("https://i.pinimg.com/564x/7a/c8/30/7ac8304987fd3eb12b13ac28b9e06f02.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    background-position: 0px 0px;
+    border-radius: 15px;
+}
+
+#navegador ul li>a:hover {
+    background-color: rgb(231, 144, 12);
+    color: black;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+
+/*  */
+
+section {
+    height: 100%;
+    width: 100%;
+    display: table;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.Seccion_Link {
+    color: transparent;
+    font-family: fantasy;
+    font-size: 50px;
+    background: linear-gradient(8deg, blue, rgb(195, 90, 209));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+#Navegador_Redes {
+    background-color: #164B60;
+    width: 48%;
+    height: 600px;
+    float: left;
+}
+
+aside {
+    background-color: #46458C;
+    width: 50%;
+    height: 600px;
+    float: right;
+}
+
+
+/*  */
+
+.contenedor_links .links {
+    margin-top: 140px;
+    margin-left: 225px;
+}
+
+
+/*  */
+
+#navegador_Redes {
+    background-image: url("https://i.pinimg.com/564x/46/00/8b/46008b631de2b7649e9ef175492cd163.jpg");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+}
+
+aside {
+    background-image: url("https://i.pinimg.com/564x/dc/2d/93/dc2d932eaaede8264ed7be99cce4b562.jpg");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+}
+
+
+/*  */
+
+.titulo {
+    color: transparent;
+    font-family: serif;
+    font-size: 50px;
+    background: linear-gradient(1deg, rgb(237, 18, 237), rgb(47, 2, 53));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.titulo {
+    transform: translate(225px, 65px);
+    height: auto;
+    width: 180px;
+    background-color: aquamarine;
+}
+
+
+/*  */
+
+.lista_bebidas {
+    color: rgb(241, 162, 16);
+    font-size: 50px
+}
+
+#Contenedor_Lista_Bebidas {
+    display: flex;
+    justify-content: center;
+    transform: translateY(125px);
+}
+
+
+/*  */
+
+#Contenedor_Lista_Bebidas .lista_bebidas>.bebida:hover {
+    color: transparent;
+    background: linear-gradient(1deg, rgb(255, 11, 11), rgb(213, 39, 39));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI';
+}
+
+
+/*  */
+
+footer {
+    width: 100%;
+    height: 40%;
+}
+
+footer {
+    background-image: url("/IMG/Footer.png");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% 100%;
+}

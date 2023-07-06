@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="../IMG/Logo.ico">
+    <link rel="stylesheet" href="../css/Home.css">
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+
+<body onclick="play()">
+    <header id="contenido_navegacion">
+        <nav id="navegador">
+            <ul class="contenedor_navegador">
+                <li class="link">
+                    <a href="#">Inicio</a>
+                </li>
+                <li class="link">
+                    <a href="#">Ingresar</a>
+                </li>
+                <li class="link">
+                    <a href="#">Catalogo</a>
+                    <ul id="sub_menu">
+                        <li class="sub_link">
+                            <a href="#">Productos</a>
+                        </li>
+                        <li class="sub_link">
+                            <a href="#">Promociones</a>
+                        </li>
+                        <li class="sub_link">
+                            <a href="#">VIP</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <section id="Contenedor_M_V">
+
+        <article class="mision">
+            <h1 style="color: black;">Mision</h1>
+            <div class="info">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ducimus repellendus ipsam adipisci voluptatem. Ullam repellendus eum ducimus repellat earum enim accusamus, quasi tempore saepe, quia numquam voluptate possimus nobis!
+
+                </p>
+            </div>
+        </article>
+        <article class="vision">
+            <h1 style="color: black;">Vision</h1>
+            <div class="info">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ducimus repellendus ipsam adipisci voluptatem. Ullam repellendus eum ducimus repellat earum enim accusamus, quasi tempore saepe, quia numquam voluptate possimus nobis!
+
+                </p>
+            </div>
+        </article>
+
+    </section>
+
+
+    <!-- audio -->
+    <audio id="Musica">
+        <source src="../Audio/audio.mp3" type="audio/mpeg">
+    </audio>
+    <!-- audio -->
+    <br>
+    <br>
+
+    <br>
+    <br>
+    <br>
+
+    <br>
+    <br>
+    <br>
+
+    <br>
+
+    <section id="videos">
+        <div class="contenedor_videos">
+            <iframe width="550px" height="401" src="https://www.youtube.com/embed/69zpWA-euSg" title="REQUISITOS para ser PROGRAMADOR JUNIOR revelados por un SENIOR😱🔥" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+        <div class="contenedor_videos2">
+            <iframe width="50%" height="401" src="https://www.youtube.com/embed/UrvPjYViDTQ" title="Programador reacciona a PORTAFOLIOS 🖥 #1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+    </section>
+</body>
+<footer>
+    <div class="footer_container">
+        <!--  -->
+        <div class="footer_link">
+            <h1>Compañia</h1>
+            <ul>
+                <li id="transition">
+                    <a href="#">Nosotros</a>
+                </li>
+                <li id="transition">
+                    <a href="#">Nuestros Servicios</a>
+                </li>
+                <li id="transition">
+                    <a href="#">Politica y Privacidad </a>
+                </li>
+            </ul>
+        </div>
+        <!--  -->
+        <div class="footer_link">
+            <h1>Ayuda</h1>
+            <ul>
+                <li id="transition">
+                    <a href="#">Preguntas</a>
+                </li>
+                <li id="transition">
+                    <a href="#">Compras</a>
+                </li>
+                <li id="transition">
+                    <a href="#">Envios </a>
+                </li>
+            </ul>
+        </div>
+        <!--  -->
+        <div class="footer_link">
+            <h1>Tienda</h1>
+            <ul>
+                <li id="transition">
+                    <a href="#">Ropa</a>
+                </li>
+                <li id="transition">
+                    <a href="#">Ubicacion</a>
+                </li>
+                <li id="transition">
+                    <a href="#">Teefono</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script>
+    function play() {
+        document.getElementById("Musica").play();
+
+    }
+    window.onload = function plays() {
+        document.getElementById("Musica").play();
+    }
+</script>
+
+</html>
